@@ -11,9 +11,15 @@
 		5D6B17512AAB41CF00FCCA6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B17502AAB41CF00FCCA6B /* ContentView.swift */; };
 		5D6B17532AAB41D000FCCA6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6B17522AAB41D000FCCA6B /* Assets.xcassets */; };
 		5D6B17562AAB41D000FCCA6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6B17552AAB41D000FCCA6B /* Preview Assets.xcassets */; };
-		5D6B17602AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B175F2AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuTests.swift */; };
+		5D6B17602AAB41D000FCCA6B /* MenuItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B175F2AAB41D000FCCA6B /* MenuItemTests.swift */; };
 		5D6B176A2AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B17692AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITests.swift */; };
 		5D6B176C2AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B176B2AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITestsLaunchTests.swift */; };
+		5D6B17792AAB41F500FCCA6B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B17782AAB41F500FCCA6B /* Model.swift */; };
+		5D6B177B2AAB43A800FCCA6B /* MenuItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B177A2AAB43A800FCCA6B /* MenuItemsView.swift */; };
+		5D6B177D2AAB43B400FCCA6B /* MenuItemsOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B177C2AAB43B400FCCA6B /* MenuItemsOptionView.swift */; };
+		5D6B177F2AAB43C100FCCA6B /* MenuItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B177E2AAB43C100FCCA6B /* MenuItemDetailsView.swift */; };
+		5D6B179D2AAB91EC00FCCA6B /* MenuCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B179C2AAB91EC00FCCA6B /* MenuCategory.swift */; };
+		5D6B179F2AAB933D00FCCA6B /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6B179E2AAB933D00FCCA6B /* Ingredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +46,16 @@
 		5D6B17522AAB41D000FCCA6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6B17552AAB41D000FCCA6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D6B175B2AAB41D000FCCA6B /* Coursera Advanced Swift Week4 Little Lemon dinner menuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coursera Advanced Swift Week4 Little Lemon dinner menuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D6B175F2AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuTests.swift; sourceTree = "<group>"; };
+		5D6B175F2AAB41D000FCCA6B /* MenuItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTests.swift; sourceTree = "<group>"; };
 		5D6B17652AAB41D000FCCA6B /* Coursera Advanced Swift Week4 Little Lemon dinner menuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coursera Advanced Swift Week4 Little Lemon dinner menuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6B17692AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITests.swift; sourceTree = "<group>"; };
 		5D6B176B2AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D6B17782AAB41F500FCCA6B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5D6B177A2AAB43A800FCCA6B /* MenuItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsView.swift; sourceTree = "<group>"; };
+		5D6B177C2AAB43B400FCCA6B /* MenuItemsOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsOptionView.swift; sourceTree = "<group>"; };
+		5D6B177E2AAB43C100FCCA6B /* MenuItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsView.swift; sourceTree = "<group>"; };
+		5D6B179C2AAB91EC00FCCA6B /* MenuCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategory.swift; sourceTree = "<group>"; };
+		5D6B179E2AAB933D00FCCA6B /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,9 @@
 		5D6B174D2AAB41CF00FCCA6B /* Coursera Advanced Swift Week4 Little Lemon dinner menu */ = {
 			isa = PBXGroup;
 			children = (
+				5DE498742AACA5BE00261EA5 /* Model */,
+				5DE498752AACA5C800261EA5 /* View */,
 				5D6B174E2AAB41CF00FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuApp.swift */,
-				5D6B17502AAB41CF00FCCA6B /* ContentView.swift */,
 				5D6B17522AAB41D000FCCA6B /* Assets.xcassets */,
 				5D6B17542AAB41D000FCCA6B /* Preview Content */,
 			);
@@ -113,7 +126,7 @@
 		5D6B175E2AAB41D000FCCA6B /* Coursera Advanced Swift Week4 Little Lemon dinner menuTests */ = {
 			isa = PBXGroup;
 			children = (
-				5D6B175F2AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuTests.swift */,
+				5D6B175F2AAB41D000FCCA6B /* MenuItemTests.swift */,
 			);
 			path = "Coursera Advanced Swift Week4 Little Lemon dinner menuTests";
 			sourceTree = "<group>";
@@ -125,6 +138,27 @@
 				5D6B176B2AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuUITestsLaunchTests.swift */,
 			);
 			path = "Coursera Advanced Swift Week4 Little Lemon dinner menuUITests";
+			sourceTree = "<group>";
+		};
+		5DE498742AACA5BE00261EA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D6B17782AAB41F500FCCA6B /* Model.swift */,
+				5D6B179C2AAB91EC00FCCA6B /* MenuCategory.swift */,
+				5D6B179E2AAB933D00FCCA6B /* Ingredient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DE498752AACA5C800261EA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D6B17502AAB41CF00FCCA6B /* ContentView.swift */,
+				5D6B177E2AAB43C100FCCA6B /* MenuItemDetailsView.swift */,
+				5D6B177A2AAB43A800FCCA6B /* MenuItemsView.swift */,
+				5D6B177C2AAB43B400FCCA6B /* MenuItemsOptionView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6B177B2AAB43A800FCCA6B /* MenuItemsView.swift in Sources */,
 				5D6B17512AAB41CF00FCCA6B /* ContentView.swift in Sources */,
+				5D6B17792AAB41F500FCCA6B /* Model.swift in Sources */,
+				5D6B179D2AAB91EC00FCCA6B /* MenuCategory.swift in Sources */,
+				5D6B179F2AAB933D00FCCA6B /* Ingredient.swift in Sources */,
 				5D6B174F2AAB41CF00FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuApp.swift in Sources */,
+				5D6B177D2AAB43B400FCCA6B /* MenuItemsOptionView.swift in Sources */,
+				5D6B177F2AAB43C100FCCA6B /* MenuItemDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6B17602AAB41D000FCCA6B /* Coursera_Advanced_Swift_Week4_Little_Lemon_dinner_menuTests.swift in Sources */,
+				5D6B17602AAB41D000FCCA6B /* MenuItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
